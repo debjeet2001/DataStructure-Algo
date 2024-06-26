@@ -1,8 +1,8 @@
-public class node{
-    int data;
+public class node<T>{
+    T data;
     node next;
 
-    node(int data){
+    node(T data){
         this.data = data;
     }
 }
