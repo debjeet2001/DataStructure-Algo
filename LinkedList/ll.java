@@ -5,10 +5,10 @@ public class ll{
             System.out.println("Empty Linked-List");
             return;
         }
-
-        while(n!=null){
-            System.out.println(n.data);
-            n = n.next;
+        node<Integer> temp = n;
+        while(temp!=null){
+            System.out.println(temp.data);
+            temp = temp.next;
         }
         return;
     }
@@ -34,6 +34,7 @@ public class ll{
         n1 = createll();
         System.out.println(n1);
         printll(n1);
+        System.out.println(n1.data);
                 
     }       
 }
